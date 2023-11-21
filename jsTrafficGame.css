@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #a8f286;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    color: #2b411d;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 15px;
+}
+.display{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-right: 40px;
+   margin-top: 35px;
+
+}
+
+.mb-4{
+    margin-bottom: 2.9rem;
+}
+.button1 {
+    height: 35px;
+    width: 65px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #1f1d41;
+    font-size: 12px;
+    border-width: 0px;
+    padding-bottom: 0;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.button2 {
+    height: 35px;
+    width: 65px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #1f1d41;
+    font-size: 12px;
+    border-width: 0px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+padding: 10px;
+}
+
+.button3 {
+    height: 35px;
+    width: 65px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #1f1d41;
+    font-size: 12px;
+    border-width: 0px;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.trafficlights {
+    background-color: #1f1d41;
+    border-radius: 35px;
+    height: 250px;
+    width: 80px;
+    display: grid;
+    text-align: center;
+}
+
+
+.bulb3 {
+    background-color: #4b5069;
+    /*Applied #5a7184 color*/
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin: 15px;
+}

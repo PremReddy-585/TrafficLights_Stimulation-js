@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <link rel="stylesheet" href="jsTrafficGame.css">
+</head>
+
+<body>
+    <div class="background">
+        <h1 class="heading">Traffic Light</h1>
+        <div class="display">
+            <div class="buttons">
+                <button class="mb-4 button1" id="stopButton" onclick="buttonRed()">Stop</button>
+                <button class="mb-4 button2" id="readyButton" onclick="buttonYellow()">Ready</button>
+                <button class="mb-4 button3" id="goButton" onclick="buttonGreen()">Go</button>
+            </div>
+            <div class="trafficlights pt-3 ml-3">
+                <div class="bulb3" id="stopLight"></div>
+                <div class="bulb3" id="readyLight"></div>
+                <div class="bulb3" id="goLight"></div>
+            </div>
+        </div>
+    </div>
+    <script src="jsTrafficGame.js"></script>
+</body>
+
+</html>
